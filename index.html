@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TakaraTone &mdash; build playlists for Tidal, Spotify &amp; YouTube Music</title>
+<style>
+  :root{--ink:#23262b;--muted:#6c7178;--gold:#b8902f;--gold-d:#8a6c1f;--charcoal:#1b1d22;--line:#e6e1d4;--panel:#fbf9f3;--soft:rgba(184,144,47,.10)}
+  *{box-sizing:border-box}
+  body{margin:0;background:#edeae2;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65}
+  a{color:var(--gold-d)}
+  .hero{background:var(--charcoal);color:#fff;text-align:center;padding:64px 24px 56px;border-bottom:3px solid var(--gold)}
+  .hero h1{font-size:48px;margin:0;color:var(--gold);letter-spacing:.5px}
+  .hero .sub{font-size:18px;color:#e9e6df;margin:10px 0 0;font-weight:600}
+  .hero .tag{color:#a9adb6;max-width:640px;margin:16px auto 0;font-size:15px}
+  .btns{margin:30px 0 0;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:700;font-size:16px;text-decoration:none}
+  .btn.primary{background:var(--gold);color:#1c1606}
+  .btn.primary:hover{background:#cda23a}
+  .btn.ghost{background:transparent;color:#e9e6df;border:1px solid #4a4d55}
+  .btn.ghost:hover{border-color:var(--gold);color:var(--gold)}
+  .wrap{max-width:880px;margin:0 auto;background:#fff;padding:40px 44px 56px;box-shadow:0 2px 24px rgba(0,0,0,.10)}
+  h2{color:var(--charcoal);font-size:22px;margin:8px 0 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:8px 0 6px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .card h3{margin:0 0 6px;color:var(--gold-d);font-size:16px}
+  .card p{margin:0;font-size:14.5px;color:#3a3e45}
+  .note{border-left:4px solid var(--gold);background:var(--soft);border-radius:0 10px 10px 0;padding:12px 16px;margin:22px 0;font-size:14.5px}
+  .foot{text-align:center;color:var(--muted);font-size:13px;padding:22px}
+  kbd{font-family:ui-monospace,Menlo,Consolas,monospace;background:#f1ede2;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:13px;color:#5a4a18}
+  @media(max-width:680px){.wrap{padding:26px 20px}.hero h1{font-size:38px}}
+</style></head>
+<body>
+<header class="hero">
+  <h1>TakaraTone</h1>
+  <p class="sub">Build playlists &amp; discover music &mdash; on your own computer</p>
+  <p class="tag">A free, local desktop app that curates playlists onto Tidal, Spotify, and YouTube Music, with chart time-travel, live concerts, and artist news. No account with us; nothing uploaded.</p>
+  <div class="btns">
+    <a class="btn primary" href="https://github.com/golgi-ap/takaratone-app/releases/latest/download/TakaraTone-Setup.exe">&#11015; Download for Windows</a>
+    <a class="btn ghost" href="TakaraTone_Manual.html">Read the manual</a>
+  </div>
+</header>
+<main class="wrap">
+  <h2>What it does</h2>
+  <div class="grid">
+    <div class="card"><h3>Make playlists</h3><p>From a vibe, artists, songs, a genre &amp; decade, a soundtrack, or &ldquo;surprise me&rdquo; &mdash; then send them to your service.</p></div>
+    <div class="card"><h3>Wayback Machine</h3><p>Recreate a year&rsquo;s top chart songs &mdash; Hot 100, Rock, Country, or R&amp;B.</p></div>
+    <div class="card"><h3>This Day in Jams</h3><p>Free live concert recordings from this date in history, with an in-app player and cast to your speakers.</p></div>
+    <div class="card"><h3>Artist News &amp; Shows</h3><p>Follow bands for recent news and upcoming concerts near you, with ticket prices.</p></div>
+  </div>
+  <div class="note"><b>First launch:</b> because the app isn&rsquo;t code-signed, Windows may show a blue &ldquo;Windows protected your PC&rdquo; notice. Click <b>More info &rarr; Run anyway</b> &mdash; it appears only once. Full setup details are in the <a href="TakaraTone_Manual.html">user manual</a>.</div>
+  <h2>Get started</h2>
+  <p>Download and run the installer above (or grab the latest from the <a href="https://github.com/golgi-ap/takaratone-app/releases">Releases page</a>), then connect a music service in Settings. Most features are free with no key; adding a free Google <b>Gemini</b> key unlocks the AI playlist modes. The <a href="TakaraTone_Manual.html">manual</a> walks through every screen and every key.</p>
+</main>
+<div class="foot">TakaraTone &mdash; made for the love of music.</div>
+</body></html>
